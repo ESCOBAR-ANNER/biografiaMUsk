@@ -1,0 +1,159 @@
+/* Estilos para el cuerpo de la página */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #071952;
+    color: #fff;
+  }
+  
+  /* Estilos para el encabezado */
+  header {
+    background-color: #0B666A;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  /* Estilos para el menú de navegación */
+  nav {
+    background-color: #35A29F;
+    padding: 10px;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+    padding: 8px 15px;
+    border-radius: 5px;
+  }
+  
+  nav a:hover {
+    background-color: #97FEED;
+  }
+  
+  /* Estilos para el contenido principal */
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 30px;
+  }
+  
+  section h2 {
+    color: #0B666A;
+  }
+  
+  /* Estilos para el pie de página */
+  footer {
+    background-color: #35A29F;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #071952;
+    color: #fff;
+    display: flex;
+    align-items: center; /* Alinea verticalmente los elementos dentro del header */
+    padding: 10px;
+}
+
+header h1 {
+    margin:130px;
+    flex: 0.3; /* Permite que el h1 ocupe el espacio restante disponible */
+}
+
+header img {
+    width: 300px;
+    height: 250px;
+    border-radius: 10%; /* Da un aspecto redondeado a la imagen */
+    margin-left: 50%px; /* Espaciado entre el h1 y la imagen */
+}
+
+<!--contacto-->
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #071952;
+    color: #fff;
+}
+
+
+main {
+    padding: 20px;
+}
+
+section.contact-form {
+    background-color: #35A29F;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+section.contact-form h2 {
+    color: #0B666A;
+    margin-top: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+textarea {
+    resize: vertical;
+}
+
+input[type="submit"] {
+    background-color: #97FEED;
+    color: #071952;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #35A29F;
+}
