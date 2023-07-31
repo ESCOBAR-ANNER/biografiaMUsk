@@ -157,3 +157,12 @@ input[type="submit"] {
 input[type="submit"]:hover {
     background-color: #35A29F;
 }
+
+.grayscale {
+    filter: grayscale(100%);
+    transition: filter 0.3s ease;
+}
+
+.grayscale:hover {
+    filter: grayscale(0%);
+}
